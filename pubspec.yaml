@@ -46,6 +46,20 @@ dev_dependencies:
   # rules and activating additional ones.
   flutter_lints: ^5.0.0
 
+  #step 1: Inastall icon app
+  flutter_launcher_icons: "^0.14.4"
+
+flutter_icons:
+  android: "laucher_icon"
+  ios : true
+  Remove_alpha_ios: true # icon โปร่งใส บน ios
+  image_path: "./android/assets/icon/logo.jpg"
+  min_skd_android: 28 
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "./android/assets/icon/logo.jpg"
+  # หลังจากนำภาพเข้าโปรเจค ให้ใช้คำสัง dart run flutter_launcher_icons
+
+
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
